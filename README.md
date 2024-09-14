@@ -10,7 +10,7 @@
 
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="logo-css">
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="logo-javas">
-<p>Este é um projeto de Croômetro onde o usuário tem as funções básicas de um cronômetro</p>
+<p>Este é um projeto de um jogo de pedra, papel e tesoura. Onde quem atingir a maior pontuação que é 5, vence a partida.</p>
 
-<img src="https://github.com/rodolfossilvadev/Cronometro/blob/main/assets/desktop.jpg?raw=true" alt="desktop-cronometro"
+<img src="" alt="desktop-jokenpo"
   height="350px">
