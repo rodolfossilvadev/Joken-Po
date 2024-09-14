@@ -3,7 +3,7 @@
 <br>
 <p>Este é um projeto de um jogo de pedra, papel e tesoura. Onde quem atingir a maior pontuação que é 5, vence a partida.</p>
 <br>
-
+https://rodolfossilvadev.github.io/Joken-Po/
 <br>
 <h2>Tecnologias utilizadas:</h2>
 
