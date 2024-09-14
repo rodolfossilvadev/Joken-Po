@@ -17,4 +17,4 @@ https://rodolfossilvadev.github.io/Joken-Po/
 <img src="https://github.com/rodolfossilvadev/Joken-Pow/blob/main/assets/desktop.jpg?raw=true" alt="desktop-jokenpo"
 height="300px">
   <img src="https://github.com/rodolfossilvadev/Joken-Pow/blob/main/assets/cell.jpg?raw=true" alt="celular-jokenpo"
-  height="250px">
+  height="200px">
