@@ -39,11 +39,11 @@ const playTheGame = (human, machine) => {
         (human === 'scissors' && machine === 'paper')) {
         humanScoreNumber++
         myScore.innerHTML = humanScoreNumber
-        result.innerHTML = "&#x2705 Você GANHOU!  &#x2705"
+        result.innerHTML = "Você GANHOU!  &#x2705"
     } else {
         machineScoreNumber++
         machineScore.innerHTML = machineScoreNumber
-        result.innerHTML = "&#x274C Você perdeu! &#x274C"
+        result.innerHTML = "Você perdeu! &#x274C"
     }
 
 }

@@ -28,12 +28,13 @@ body {
 
 .container {
     padding: 20px;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: 2px solid #000000;
 }
 
 .buttons {
@@ -56,11 +57,14 @@ button {
     border-radius: 10px;
     margin: 1rem;
     transition: all 0.3s ease-in-out;
+    box-shadow: 5px 5px 15px rgb(12, 0, 41);
+    border: 2px solid #000000;
 }
 
 button:hover {
     opacity: 0.6;
     scale: 1.3;
+    border: 2px solid #33ff00;
 }
 
 #rock {
@@ -78,16 +82,32 @@ button:hover {
 p {
     font-size: 25px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: left;
 }
 
 .your-score span {
     color: rgb(0, 68, 255);
+    border: 2px solid #000000;
+    padding: 5px;
+    border-radius: 5px;
+
 }
 
 .machine-score span {
     color: rgb(255, 72, 0);
+    border: 2px solid #000000;
+    padding: 5px;
+    border-radius: 5px;
 }
-.choice-machine{
-    color: rgb(197, 46, 0);
+
+.choice-machine {
+    color: rgb(51, 49, 48);
+}
+
+#play-machine {
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(255, 244, 95);
 }
