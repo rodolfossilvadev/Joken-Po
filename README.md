@@ -12,6 +12,6 @@
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="logo-javas">
 <p>Este é um projeto de um jogo de pedra, papel e tesoura. Onde quem atingir a maior pontuação que é 5, vence a partida.</p>
 
-<img src="" alt="desktop-jokenpo"
+<img src="https://github.com/rodolfossilvadev/Joken-Pow/blob/main/assets/desktop.jpg?raw=true" alt="desktop-jokenpo"
   <img src="https://github.com/rodolfossilvadev/Joken-Pow/blob/main/assets/cell.jpg?raw=true" alt="celular-jokenpo"
   height="350px">
