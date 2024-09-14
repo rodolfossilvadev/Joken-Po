@@ -8,11 +8,11 @@ let machineScoreNumber = 0
 
 
 const playHuman = (humamChoise) => {
-    playTheGame(humamChoise, playMacine())
+    playTheGame(humamChoise, playMachine())
     winTheGame()
 
 }
-const playMacine = () => {
+const playMachine = () => {
     const choices = ['rock', 'paper', 'scissors']
     const randomNumber = Math.floor(Math.random() * 3)
 
