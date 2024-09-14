@@ -1,5 +1,5 @@
 <h1>JokenPô</h1>
-https://rodolfossilvadev.github.io/Joken-Pow/
+
 <br>
 <p>Este é um projeto de um jogo de pedra, papel e tesoura. Onde quem atingir a maior pontuação que é 5, vence a partida.</p>
 <br>
@@ -16,3 +16,4 @@ https://rodolfossilvadev.github.io/Joken-Pow/
 height="300px">
   <img src="https://github.com/rodolfossilvadev/Joken-Pow/blob/main/assets/cell.jpg?raw=true" alt="celular-jokenpo"
   height="250px">
+https://rodolfossilvadev.github.io/Joken-Pow/
