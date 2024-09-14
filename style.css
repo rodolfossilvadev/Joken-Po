@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, rgb(61, 43, 226), rgb(21, 248, 0), black);
+    background-size: 500% 100%;
+    animation: anima 5s infinite linear alternate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+@keyframes anima {
+    0% {
+        background-position-x: 0%;
+    }
+
+    100% {
+        background-position-x: 100%;
+    }
+
+}
+
+.container {
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+h1 {
+    font-size: 50px;
+
+}
+
+button {
+
+    padding: 12px;
+    font-size: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    margin: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.6;
+    scale: 1.1;
+}
+
+#rock {
+    background-color: blueviolet;
+}
+
+#paper {
+    background-color: brown;
+}
+
+#scissors {
+    background-color: greenyellow;
+}
+
+p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.your-score span {
+    color: rgb(0, 68, 255);
+}
+
+.machine-score span {
+    color: rgb(255, 72, 0);
+}
+.choice-machine{
+    color: rgb(197, 46, 0);
+}
