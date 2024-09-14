@@ -15,6 +15,6 @@
 
 
 <img src="https://github.com/rodolfossilvadev/Joken-Pow/blob/main/assets/desktop.jpg?raw=true" alt="desktop-jokenpo"
-height="300px">
+height="250px">
   <img src="https://github.com/rodolfossilvadev/Joken-Pow/blob/main/assets/cell.jpg?raw=true" alt="celular-jokenpo"
   height="200px">
