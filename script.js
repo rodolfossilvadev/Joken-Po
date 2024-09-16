@@ -6,6 +6,11 @@ const machineScore = document.querySelector("#machine-score")
 let humanScoreNumber = 0
 let machineScoreNumber = 0
 
+const GAME_OPTION = {
+    ROCK:'rock',
+    PAPER:'paper',
+    SCISSORS:'scissors'
+}
 
 const playHuman = (humamChoise) => {
     playTheGame(humamChoise, playMachine())
@@ -13,7 +18,7 @@ const playHuman = (humamChoise) => {
 
 }
 const playMachine = () => {
-    const choices = ['rock', 'paper', 'scissors']
+    const choices = [GAME_OPTION.ROCK, GAME_OPTION.PAPER, GAME_OPTION.SCISSORS]
     const randomNumber = Math.floor(Math.random() * 3)
 
     if(randomNumber === 0){
@@ -34,9 +39,9 @@ const playTheGame = (human, machine) => {
 
     if (human === machine) {
         result.innerHTML = "Empate!"
-    } else if ((human === 'paper' && machine === 'rock') ||
-        (human === 'rock' && machine === 'scissors') ||
-        (human === 'scissors' && machine === 'paper')) {
+    } else if ((human === GAME_OPTION.PAPER && machine === GAME_OPTION.ROCK) ||
+        (human === GAME_OPTION.ROCK && machine === GAME_OPTION.SCISSORS) ||
+        (human === GAME_OPTION.SCISSORS && machine === GAME_OPTION.PAPER)) {
         humanScoreNumber++
         myScore.innerHTML = humanScoreNumber
         result.innerHTML = "Você GANHOU!  &#x2705"
